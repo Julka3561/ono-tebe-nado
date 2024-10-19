@@ -24,7 +24,7 @@
 .header__links-list-item {
   padding-left: 2px;
   letter-spacing: 0.01em;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid currentColor;
 }
 
 .header__link {
@@ -52,7 +52,7 @@
 
 .address_link {
   text-decoration: none;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid currentColor;
   letter-spacing: 0.01em;
 }
 
@@ -123,10 +123,10 @@
 }
 
 .bet-button {
-
+  font-family: Raleway, sans-serif;
   width: 256px;
   height: 51px;
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   background-color: transparent;
   text-transform: inherit;
   color: inherit;
@@ -135,7 +135,7 @@
 }
 
 .lots {
-  margin: 179px 24px 185px;
+  margin: 179px 24px 181px;
 }
 
 .lots__heading {
@@ -149,7 +149,6 @@
 .lots__card-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 563px;
   gap: 25px;
   list-style-type: none;
   margin-bottom: 30px;
@@ -172,28 +171,21 @@
   justify-content: space-between;
   padding: 51px 40px 48px;
   color: #fff;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
 }
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100%;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100%;
 }
 
 .card__title {
@@ -248,6 +240,7 @@
 }
 
 .about__title {
+  margin-top: 10px;
   font-size: 40px;
   font-weight: bold;
   text-transform: uppercase;
@@ -259,6 +252,9 @@
   font-size: 20px;
   line-height: 24px;
   word-spacing: 0.02em;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .footer {
@@ -287,7 +283,7 @@
 
 .footer__menu-link {
   text-decoration: none;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid currentColor;
 }
 
 .footer__social-list {
