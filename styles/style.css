@@ -277,13 +277,13 @@
   font-size: 18px;
 }
 
-.footer__menu-link_active {
-  text-decoration: none;
-}
-
 .footer__menu-link {
   text-decoration: none;
   border-bottom: 1px solid currentColor;
+}
+
+.footer__menu-link_active {
+  border-bottom: none;
 }
 
 .footer__social-list {
